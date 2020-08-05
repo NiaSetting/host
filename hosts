@@ -1,3 +1,10 @@
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
 # github
 192.30.253.119    gist.github.com
 151.101.184.133    assets-cdn.github.com
@@ -14,6 +21,15 @@
 151.101.184.133    avatars6.githubusercontent.com
 151.101.184.133    avatars7.githubusercontent.com
 151.101.184.133    avatars8.githubusercontent.com
+
+204.232.175.78    http://documentcloud.github.com
+207.97.227.239    http://github.com
+204.232.175.94    http://gist.github.com
+107.21.116.220    http://help.github.com
+207.97.227.252    http://nodeload.github.com
+199.27.76.130    http://raw.github.com
+107.22.3.110    http://status.github.com
+204.232.175.78    http://training.github.com
 
 # ssr youneed
 104.31.74.55 youneed.win
